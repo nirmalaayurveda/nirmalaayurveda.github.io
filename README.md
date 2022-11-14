@@ -1,0 +1,2 @@
+# nirmalaayurveda.github.io
+Ayurveda
