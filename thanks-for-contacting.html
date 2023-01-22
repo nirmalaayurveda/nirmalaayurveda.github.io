@@ -139,85 +139,80 @@ src="https://www.facebook.com/tr?id=730511248231104&ev=PageView&noscript=1"
     <!-- Navbar End -->
     <!-- Navbar End -->
 
-
-    <!-- Page Header Start 
+    <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">Contact Us</h1>
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Online Consultation</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item active" aria-current="page">Online Consultation</li>
                 </ol>
             </nav>
         </div>
     </div>
-    Page Header End -->
+    <!-- Page Header End -->
 
 
 
-        <!-- Contact Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                        <p class="fs-5 fw-bold text-primary">Contact Us</p>
-                        <h2 class="display-5 mb-5">If You Have Any Query, Please Contact Us</h2>
-                        <!--<p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                        -->
-                            <form method="post" name="contact-us">
-                            <div class="row g-3">
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" name="Name" id="Name" placeholder="Name" required>
-                                        <label for="name">Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="number" class="form-control" name="Phone" id="Phone" placeholder="Phone-number" required>
-                                        <label for="subject">Phone Number</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" name="Subject" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" name="Message" id="Message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary py-3 px-4" type="submit" name="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+    <section class="contact-section section_padding">
+        <div class="container">
+          <div class="d-sm-block mb-5 pb-4">
+    
+    
+    
+            <div class="row">
+              <div class="col-12">
+               
+              </div>
+              <div class="col-lg-8">
+                  <h1>Thanks for writing us!</h1>
+                  <h2>Our representative will call you soon!</h2>
+                  <h3>Meanwhile you can know more about us and follow us on social media</h3>
+                  <div class="row">
+                    <div class="col-lg-12 container-fluid bg-dark text-light">
+            
+                        <div class="social_icon">
+                        <a class="btn btn-link text-light" href="https://www.facebook.com/nirmalaayurveda"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-link text-light" href="https://instagram.com/nirmala_ayurveda?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-link text-light" href="https://www.youtube.com/@nirmalaayurveda"><i class="fab fa-youtube"></i></a>
                     </div>
-    
+                    </div>
+                    <br>
+                  
+                    <hr>
+                    <div><a class="navbar-brand logo_1" href="index.html"> <img src="img/logo.png" alt="logo"
+                      style="height: 80px; width: 80px; "> </a></div>
                 </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-home"></i></span>
+                  <div class="media-body">
+                    <h3>India</h3>
+                  </div>
+                </div>
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+                  <div class="media-body">
+                    <h3>+91 8770487458(Whatsapp)</h3>
+                    <p>Mon to Sat 10am to 9pm</p>
+                  </div>
+                </div>
+                <div class="media contact-info">
+                  <span class="contact-info__icon"><i class="ti-email"></i></span>
+                  <div class="media-body">
+                    <h3>ayurvedanirmala@gmail.com</h3>
+                    <p>Send us your query anytime!</p>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- Contact End -->
-    
-              
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyfWVR700m44dbVL-_PRoq142vv-VZ-ruPwZpKNxxHmo5_aNttBdR3MP9N6B55Ggvt0/exec'
-            const form = document.forms['contact-us']
+          </div>
+      </section>
+
           
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                    window.location.replace('thanks-for-booking.html');
-                } )
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
 
 
     <!-- Footer Start -->
@@ -265,33 +260,37 @@ src="https://www.facebook.com/tr?id=730511248231104&ev=PageView&noscript=1"
     </div>
     <!-- Footer End -->
 
+<a href="https://wa.me/918770487458?text=Hello%20Doctor%20myself__!"
+class="float"
+style="
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 70px;
+  right: 50px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #999;
+"
+>
+<img
+  src="/img/WhatsApp.svg.webp"
+  alt=""
+  height="60px"
+  width="60px"
+/>
+</a>
 
 
-    <a href="https://wa.me/918770487458?text=Hi%20myself%20__!"
-    class="float"
-    style="
-      position: fixed;
-      width: 50px;
-      height: 50px;
-      bottom: 70px;
-      right: 50px;
-      color: #fff;
-      border-radius: 50px;
-      text-align: center;
-      cursor: pointer;
-      box-shadow: 2px 2px 3px #999;
-    "
-    >
-    <img
-      src="/img/WhatsApp.svg.webp"
-      alt=""
-      height="60px"
-      width="60px"
-    />
-    </a>
 
 
-  
+
+    <!-- Back to Top --
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
